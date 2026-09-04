@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Product-service@cluster0.5jwffid.mongodb.net" uuid="fef19a70-8fb5-452f-afae-504e92e7187b">
+      <driver-ref>mongo.4</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb+srv://cluster0.5jwffid.mongodb.net/Product-service?retryWrites=true&amp;w=majority&amp;appName=Cluster0</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost" uuid="d27191fe-21b2-4f8b-a531-cc11d28506ee">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

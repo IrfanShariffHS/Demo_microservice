@@ -7,7 +7,17 @@
         <option value="$PROJECT_DIR$/Product-service/pom.xml" />
         <option value="$PROJECT_DIR$/orderservice/pom.xml" />
         <option value="$PROJECT_DIR$/inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-new/microservice-new/inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-new/microservice-new/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-new/microservice-new/order-service/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/inventory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/orderservice/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="graalvm-jdk-17" project-jdk-type="JavaSDK">

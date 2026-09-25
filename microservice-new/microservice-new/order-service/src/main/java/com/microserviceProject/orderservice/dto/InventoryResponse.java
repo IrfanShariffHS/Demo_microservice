@@ -1,21 +1,17 @@
 package com.microserviceProject.orderservice.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.math.BigDecimal;
-
 @Data
-@NoArgsConstructor
+@Builder
 @AllArgsConstructor
-public class OrderLineItemsRequest {
-
-    private Long id;
+@NoArgsConstructor
+public class InventoryResponse {
 
     private String skuCode;
 
-    private BigDecimal price;
-
-    private Integer quantity;
+    private boolean isInStock;
 }
